@@ -4,24 +4,24 @@
 
 #### Setup Basic Express Server
 
-- [] import express and assign to variable
-- [] setup start port variable (5000) and start function
+- [X] import express and assign to variable
+- [X] setup start port variable (5000) and start function
 
 #### Connect To DB
 
-- [] get connection string
-- [] setup .env with MONGO_URL variable and assign the value
-- [] import 'dotenv' and setup package
-- [] import connect() and invoke in the starter
-- [] restart the server
-- [] mongoose V6 info
+- [X] get connection string
+- [X] setup .env with MONGO_URL variable and assign the value
+- [X] import 'dotenv' and setup package
+- [X] import connect() and invoke in the starter
+- [X] restart the server
+- [X] mongoose V6 info
 
 #### Basic Routes and Middleware
 
-- [] setup / GET Route
-- [] setup express.json() middleware
-- [] setup 404 and errorHandler middleware
-- [] import 'exress-async-errors' package
+- [X] setup / GET Route
+- [X] setup express.json() middleware
+- [X] setup 404 and errorHandler middleware
+- [X] import 'exress-async-errors' package
 
 #### 404 vs ErrorHandler Middleware
 
@@ -31,9 +31,9 @@
 
 #### User Model
 
-- [] create models folder and User.js file
-- [] create schema with name,email, password (all type:String)
-- [] export mongoose model
+- [X] create models folder and User.js file
+- [X] create schema with name,email, password (all type:String)
+- [X] export mongoose model
 
 #### Validator Package
 
@@ -41,27 +41,27 @@
 
 #### Auth Routes Structure
 
-- [] create controllers folder
-- [] add authController file
-- [] export (register,login,logout) functions
-- [] res.send('some string value')
-- [] create routes folder
-- [] setup authRoutes file
-- [] import all controllers
-- [] setup three routes
-- [] post('/register') post('/login') get('/logout')
-- [] import authRoutes as authRouter in the app.js
-- [] setup app.use('/api/v1/auth', authRouter)
+- [X] create controllers folder
+- [X] add authController file
+- [X] export (register,login,logout) functions
+- [X] res.send('some string value')
+- [X] create routes folder
+- [X] setup authRoutes file
+- [X] import all controllers
+- [X] setup three routes
+- [X] post('/register') post('/login') get('/logout')
+- [X] import authRoutes as authRouter in the app.js
+- [X] setup app.use('/api/v1/auth', authRouter)
 
 #### Test Routes in Postman
 
 #### Register Controller
 
-- [] create user
-- [] send response with entire user (only while testing)
-- [] check if email already in use (schema and controller)
-- [] ignore 'role'
-- [] alternative 'admin' setup
+- [X] create user
+- [X] send response with entire user (only while testing)
+- [X] check if email already in use (schema and controller)
+- [X] ignore 'role'
+- [X] alternative 'admin' setup
 
 #### Handle Password
 
