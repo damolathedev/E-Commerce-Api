@@ -9,6 +9,7 @@ const morgan = require('morgan')
 const connectDB = require('./db/connect')
 
 const authRouter = require('./routes/authRoutes')
+const userRoutes = require('./routes/userRoutes')
 
 const notFoundMiddleWare = require('./middleware/not-found')
 const errorHandlerMiddleWare = require('./middleware/error-handler')
@@ -23,6 +24,7 @@ app.get('/',(req, res)=>{
 })
 
 app.use('/api/v1/auth', authRouter)
+app.use('/api/v1/users', userRoutes)
 
 
 app.use(notFoundMiddleWare)
